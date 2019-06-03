@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.unisep.controller.HomeController">
+   <children>
+      <AnchorPane layoutX="209.0" prefHeight="54.0" prefWidth="600.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="menu" alignment="CENTER_RIGHT" layoutX="386.0" prefHeight="54.0" prefWidth="313.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="nomeUsuario" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imgProjetos" fitHeight="34.0" fitWidth="45.0" onMouseClicked="#abrirProjetos" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/project.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="imgUsuarios" fitHeight="34.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/users.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="45.0" onMouseClicked="#sair" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logout.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Label fx:id="titulo" layoutX="198.0" layoutY="13.0" textFill="WHITE" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox alignment="CENTER" prefHeight="61.0" prefWidth="120.0" style="-fx-background-color: #ffea00;" AnchorPane.leftAnchor="64.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Manager" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Impact" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="conteudo" layoutX="124.0" layoutY="115.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0" />
+   </children>
+</AnchorPane>
