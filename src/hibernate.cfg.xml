@@ -18,6 +18,11 @@
 		<mapping class="br.edu.unisep.model.vo.ClienteVO"/>
 		<mapping class="br.edu.unisep.model.vo.ProjetoVO"/>
 
+		<mapping class="br.edu.unisep.model.vo.TarefaVO"/>
+		<mapping class="br.edu.unisep.model.vo.MembroEquipeVO"/>
+
+
+
 
 	</session-factory>
 </hibernate-configuration>
