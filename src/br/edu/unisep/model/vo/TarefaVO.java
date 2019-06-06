@@ -12,7 +12,7 @@ public class TarefaVO {
     @Column(name = "id_tarefa")
     private  Integer id;
 
-    @Column(name = "ds_descricao")
+    @Column(name = "ds_tarefa")
     private String descricao;
 
     @OneToOne
@@ -29,7 +29,7 @@ public class TarefaVO {
     @Column(name = "dt_inicio")
     private LocalDateTime inicio;
 
-    @Column(name = "dt_terminio")
+    @Column(name = "dt_termino")
     private LocalDateTime termino;
 
     public Integer getId() {

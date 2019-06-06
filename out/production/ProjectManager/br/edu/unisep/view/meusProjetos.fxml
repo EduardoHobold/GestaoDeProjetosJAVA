@@ -19,8 +19,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ListView fx:id="lstProjetos" prefHeight="262.0" prefWidth="200.0" />
-            <ListView fx:id="lstTarefas" prefHeight="262.0" prefWidth="362.0" GridPane.columnIndex="1" />
+            <ListView fx:id="listProjetos" prefHeight="262.0" prefWidth="200.0" />
+            <ListView fx:id="listTarefas" prefHeight="262.0" prefWidth="362.0" GridPane.columnIndex="1" />
          </children>
       </GridPane>
       <HBox alignment="CENTER_LEFT" layoutX="125.0" layoutY="440.0" prefHeight="35.0" prefWidth="168.0" spacing="15.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
