@@ -23,4 +23,19 @@ public class TarefaDAO extends GenericDAO<TarefaVO> {
         return lista;
     }
 
+    public List<TarefaVO> listarPorStatus(UsuarioVO usuario, Integer status) {
+        var session = HibernateSessionFactory.getSession();
+
+        var q = session.createQuery("from TarefaVO where responsavel.id = :USUARIO and status = :STATUS", TarefaVO.class);
+
+        q.setParameter("STATUS", status);
+        q.setParameter("USUARIO", usuario.getId());
+
+        var lista = q.list();
+
+        session.close();
+
+        return  lista;
+    }
+
 }

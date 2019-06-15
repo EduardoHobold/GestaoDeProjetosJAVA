@@ -5,6 +5,8 @@ import br.edu.unisep.hibernate.HibernateSessionFactory;
 import br.edu.unisep.model.vo.ProjetoVO;
 import br.edu.unisep.model.vo.UsuarioVO;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.hibernate.Session;
+import org.hibernate.query.Query;
 
 import java.util.List;
 
@@ -48,7 +50,7 @@ public class UsuarioDAO extends GenericDAO<UsuarioVO> {
         sql.append("and not exists( ");
         sql.append("select 1 from membro_equipe me ");
         sql.append("where me.id_usuario = u.id_usuario ");
-        sql.append("where me.id_projeto = :PROJETO)");
+        sql.append("and me.id_projeto = :PROJETO)");
 
         var q = session.createNativeQuery(sql.toString(), UsuarioVO.class);
 
@@ -57,6 +59,19 @@ public class UsuarioDAO extends GenericDAO<UsuarioVO> {
         var lista = q.list();
 
         session.close();
+        return lista;
+    }
+
+    public List<UsuarioVO> listarEquipeProjeto(ProjetoVO proj) {
+        var session = HibernateSessionFactory.getSession();
+
+        Query<UsuarioVO> q = session.createQuery("select me.usuario from MembroEquipeVO me where me.projeto.id = :PROJETO",
+                UsuarioVO.class);
+        q.setParameter("PROJETO", proj.getId());
+
+        var lista = q.list();
+        session.close();
+
         return lista;
     }
 

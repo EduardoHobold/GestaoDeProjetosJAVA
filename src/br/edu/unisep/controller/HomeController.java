@@ -29,6 +29,9 @@ public class HomeController extends AppController {
         if (UsuarioUtils.getUsuario().getTipo() == 2) {
             titulo.setText("Meus Projetos");
             openScene(conteudo, "../view/meusProjetos.fxml");
+        }else {
+            titulo.setText("Minhas Tarefas");
+            openScene(conteudo, "../view/minhasTarefas.fxml");
         }
     }
 

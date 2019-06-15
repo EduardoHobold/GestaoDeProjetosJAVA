@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="986d6faa-8f9c-46d1-98f0-7154e89acb39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/MembroEquipeCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/UsuarioCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/MinhasTarefasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/NovaTarefaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/GenericCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/NaoIniciadoCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/item_Naoinciado.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/minhasTarefas.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/novaTarefa.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/project_Generic.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/controller/MeusProjetosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/controller/MeusProjetosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/model/dao/TarefaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/model/dao/TarefaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/model/dao/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/model/dao/UsuarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/view/item_tarefa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/view/item_tarefa.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/view/meusProjetos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectManager/br/edu/unisep/view/meusProjetos.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/model/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/model/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +37,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="323">
+              <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="99" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,16 +49,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_usuario.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1827#1828#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/MembroEquipeDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MinhasTarefasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="143">
+              <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/MembroEquipeCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/NaoIniciadoCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,17 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/TarefaVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,52 +132,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/ProjetoCell.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/UsuarioCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/MembroEquipeCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="336">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -122,12 +156,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usuario</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -155,23 +192,38 @@
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/model/vo/ProjetoVO.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/ProjetoDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/item_projeto.fxml" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/ProjetoCell.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/model/vo/MembroEquipeVO.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/UsuarioDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/MembroEquipeDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/model/vo/TarefaVO.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/UsuarioCell.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/MembroEquipeCell.java" />
         <option value="$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/novaTarefa.fxml" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/NovaTarefaController.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/UsuarioDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/minhasTarefas.fxml" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/MembroEquipeDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/GenericCell.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/project_Generic.fxml" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/item_Naoinciado.fxml" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/view/NaoIniciadoCell.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/unisep/controller/MinhasTarefasController.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -185,6 +237,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,15 +297,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559864983093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560557966860" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../commons-codec-1.12.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -264,6 +317,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Faculdade\ProjectManager\src\br\edu\unisep\view" />
+      <recent name="C:\Faculdade\ProjectManager\src\br\edu\unisep\controller" />
       <recent name="C:\Faculdade\ProjectManager\src\br\edu\unisep" />
     </key>
   </component>
@@ -325,13 +379,36 @@
       <option name="project" value="LOCAL" />
       <updated>1559863985487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Continuando o Projeto fazendo a class Membro Equipe">
+      <created>1559946441549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559946441549</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Continuando o Projeto fazendo a class Membro Equipe">
+      <created>1559946510180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559946510180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,38 +416,70 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32863188" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32863188" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32863188" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32863188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" show_stripe_button="false" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Version Control" order="8" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32863188" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32863188" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32863188" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32863188" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" show_stripe_button="false" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Version Control" order="8" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Continuando o Projeto fazendo a class Membro Equipe" />
     <option name="LAST_COMMIT_MESSAGE" value="Continuando o Projeto fazendo a class Membro Equipe" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/utils/UsuarioUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -382,91 +491,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/ContatoVO.java" />
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/novoProjeto.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/projetos.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/ProjetosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/ProjetoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/NovoProjetoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_projeto.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/ClienteVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_usuario.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/MembroEquipeVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/novaTarefa.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../lib_unisepfx.jar!/br/edu/unisep/fx/controller/ModalController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -477,17 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/ClienteVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/ProjetoVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="128">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#884#885#0" expanded="true" />
@@ -498,66 +586,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/MembroEquipeVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/UsuarioDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="51" />
+        <state relative-caret-position="179">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/minhasTarefas.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/TarefaVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/UsuarioCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/ProjetoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/ProjetosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,7 +654,129 @@
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/MembroEquipeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/NovoProjetoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/ProjetoCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/NovaTarefaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/project_Generic.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_Naoinciado.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/dao/TarefaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="28" column="87" lean-forward="true" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/GenericCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="99" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MinhasTarefasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,71 +785,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/TarefaCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/model/vo/TarefaVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/MeusProjetosController.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_tarefa.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/item_usuario.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/ProjetoCell.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/meusProjetos.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/UsuarioCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/MembroEquipeCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        <state relative-caret-position="419">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/equipe.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/view/NaoIniciadoCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/unisep/controller/EquipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="95">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -25,8 +25,8 @@
       </GridPane>
       <HBox alignment="CENTER_LEFT" layoutX="125.0" layoutY="440.0" prefHeight="35.0" prefWidth="168.0" spacing="15.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
          <children>
-            <Button mnemonicParsing="false" text="Equipe" />
-            <Button mnemonicParsing="false" text="Nova Tarefa" />
+            <Button mnemonicParsing="false" onAction="#abrirEquipe" text="Equipe" />
+            <Button mnemonicParsing="false" onAction="#abrirNovaTarefa" text="Nova Tarefa" />
          </children>
       </HBox>
    </children>
