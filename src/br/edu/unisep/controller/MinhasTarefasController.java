@@ -6,7 +6,6 @@ import br.edu.unisep.model.vo.TarefaVO;
 import br.edu.unisep.utils.UsuarioUtils;
 import br.edu.unisep.view.GenericCell;
 import br.edu.unisep.view.NaoIniciadoCell;
-import br.edu.unisep.view.ProjetoCell;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -29,6 +28,8 @@ public class MinhasTarefasController extends AppController {
     private ObservableList<TarefaVO> tarefasInicio;
     private ObservableList<TarefaVO> tarefasMeio;
     private ObservableList<TarefaVO> tarefasFim;
+
+    private ListView origemDrag;
 
 
     @Override
@@ -76,6 +77,8 @@ public class MinhasTarefasController extends AppController {
 
         dragboard.setContent(content);
 
+        origemDrag = listNaoIniciado;
+
         event.consume();
     }
 
@@ -89,6 +92,8 @@ public class MinhasTarefasController extends AppController {
 
         dragboard.setContent(content);
 
+        origemDrag = listEmAndamento;
+
         event.consume();
     }
 
@@ -99,31 +104,41 @@ public class MinhasTarefasController extends AppController {
 
     public void dropMeio(DragEvent event) {
 
+        if(origemDrag == listNaoIniciado) {
             var dragboard = event.getDragboard();
             var pos = dragboard.getString();
 
-            var tarefa = tarefasMeio.get(Integer.parseInt(pos));
+            var tarefa = tarefasInicio.get(Integer.parseInt(pos));
 
             var dao = new TarefaDAO();
             tarefa.setStatus(2);
             tarefa.setInicio(LocalDateTime.now());
             dao.alterar(tarefa);
 
+            var tarefaInicio = tarefasInicio.get(Integer.parseInt(pos));
+            tarefasMeio.add(tarefaInicio);
+            tarefasInicio.remove(tarefaInicio);
+        }
         event.consume();
     }
 
     public void dropFim(DragEvent event) {
 
-        var dragboard = event.getDragboard();
-        var pos = dragboard.getString();
+        if(origemDrag == listEmAndamento) {
+            var dragboard = event.getDragboard();
+            var pos = dragboard.getString();
 
-        var tarefa = tarefasFim.get(Integer.parseInt(pos));
+            var tarefa = tarefasMeio.get(Integer.parseInt(pos));
 
-        var dao = new TarefaDAO();
-        tarefa.setStatus(3);
-        tarefa.setTermino(LocalDateTime.now());
-        dao.alterar(tarefa);
+            var dao = new TarefaDAO();
+            tarefa.setStatus(3);
+            tarefa.setTermino(LocalDateTime.now());
+            dao.alterar(tarefa);
 
+            var tarefaMeio = tarefasMeio.get(Integer.parseInt(pos));
+            tarefasFim.add(tarefaMeio);
+            tarefasMeio.remove(tarefaMeio);
+        }
         event.consume();
     }
 }
