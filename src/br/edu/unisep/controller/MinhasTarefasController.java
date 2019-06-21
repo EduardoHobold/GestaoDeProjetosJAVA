@@ -42,7 +42,7 @@ public class MinhasTarefasController extends AppController {
         listarTarefas(2);
         listarTarefas(3);
 
-        listNaoIniciado.setCellFactory(f -> new NaoIniciadoCell());
+        //listNaoIniciado.setCellFactory(f -> new NaoIniciadoCell());
         listNaoIniciado.setItems(tarefasInicio);
 
         listEmAndamento.setCellFactory(f -> new GenericCell());

@@ -46,4 +46,6 @@ public class NaoIniciadoCell extends ListCell<TarefaVO> {
 
     }
 
+
+
 }

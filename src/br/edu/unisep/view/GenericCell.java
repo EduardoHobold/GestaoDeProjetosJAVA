@@ -44,22 +44,22 @@ public class GenericCell extends ListCell<TarefaVO> {
     }
 
     @Override
-    protected  void updateItem(TarefaVO tarefa,boolean vazio){
-        super.updateItem(tarefa,vazio);
+    protected void updateItem(TarefaVO tarefa, boolean vazio) {
+        super.updateItem(tarefa, vazio);
 
-        if(!vazio){
+        if (!vazio) {
             lblDescricao.setText(tarefa.getDescricao());
             lblProjeto.setText(tarefa.getProjeto().getDescricao());
-            if(tarefa.getStatus() == 2){
+            if (tarefa.getStatus() == 2) {
                 lblText.setText("Iniciada em: ");
                 lblIniciado.setText(tarefa.getInicio().format(fmt));
-            }else{
+            } else {
                 lblText.setText("Periodo de Desenvolvimento: ");
                 lblIniciado.setText(tarefa.getInicio().format(fmt));
                 lblTermino.setText(tarefa.getTermino().format(fmt));
             }
             setGraphic(cell);
-        }else{
+        } else {
             setGraphic(null);
         }
     }
